@@ -1,14 +1,14 @@
 {
-  "name": "gatsby-tutorial-starter",
-  "author": "Justin Formentin",
-  "title": "Gatsby V2 Tutorial Starter",
-  "description": "My Blog",
-  "homepage": "https://gatsby-tutorial-starter.netlify.com",
+  "name": "beyond-destiny",
+  "author": "Fabian Kresler",
+  "title": "Beyond Destiny",
+  "description": "Blog featuring ideas and thoughts about the world of Destiny",
+  "homepage": "https://beyondestiny.netlify.app/",
   "license": "MIT",
-  "version": "0.0.7",
+  "version": "0.0.1",
   "repository": {
     "type": "git",
-    "url": "https://github.com/justinformentin/gatsby-v2-tutorial-starter"
+    "url": "https://github.com/fkresler/beyond-destiny"
   },
   "scripts": {
     "develop": "gatsby develop",
@@ -66,10 +66,7 @@
     "prettier": "^1.18.2"
   },
   "keywords": [
-    "justin formentin",
-    "personal blog",
-    "tutorial",
-    "gatsby",
-    "emotion"
+    "Destiny",
+    "Blog"
   ]
 }
