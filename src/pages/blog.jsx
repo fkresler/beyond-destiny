@@ -10,7 +10,7 @@ const Blog = ({ data }) => {
   return (
     <Layout>
       <Helmet title={'Blog Page'} />
-      <Header title="Blog Page">Gatsby Tutorial Starter</Header>
+      <Header title="Blog Page">Beyond Destiny</Header>
       {edges.map(({ node }) => (
         <BlogList
           key={node.id}
@@ -60,7 +60,7 @@ export const query = graphql`
             title
             path
             tags
-            date(formatString: "MM.DD.YYYY")
+            date(formatString: "DD.MM.YYYY")
             cover {
               childImageSharp {
                 fluid(

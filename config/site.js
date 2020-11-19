@@ -7,7 +7,7 @@ module.exports = {
   siteUrl: 'https://beyond-destiny.netlify.app/', // url + pathPrefix
   siteLanguage: 'en', // Language Tag on <html> element
   logo: 'static/logo/logo.png', // Used for SEO
-  banner: 'static/logo/banner.png',
+  banner: 'static/logo/logo.png',
   // JSONLD / Manifest
   favicon: 'static/logo/favicon.png', // Used for manifest favicon generation
   shortName: 'BeyonDestiny', // shortname for manifest. MUST be shorter than 12 characters
