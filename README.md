@@ -32,13 +32,11 @@ If you want to check out the deployed blog you can find the currently deployed v
 - Development tools
   - ESLint for linting
   - Prettier for code style
-  - CircleCI support
   - Google Lighthouse Optimization
 
 ## Folder structure
 
 ```bash
-├──.circleci # Circleci integration
 ├── config # Theme and site metadata
 ├── content # Post markdown and images
 ├── src
