@@ -86,7 +86,7 @@ const Title = styled.h1`
   margin: 0;
 `;
 
-const BlogList = ({ path, cover, title, date, excerpt, tags }) => (
+const BlogList = ({ path, cover, title, date, tags }) => (
   <Container>
     <Wrapper>
       <Image>
@@ -100,7 +100,6 @@ const BlogList = ({ path, cover, title, date, excerpt, tags }) => (
           <Title>{title}</Title>
         </Link>
         <TagsBlock list={tags} />
-        {excerpt}
       </Information>
     </Wrapper>
   </Container>
