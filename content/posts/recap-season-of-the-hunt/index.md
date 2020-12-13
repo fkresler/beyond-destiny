@@ -32,11 +32,3 @@ Next thing that happened this Season was the introductional quest. It was kind o
 Speaking of the activity: these are called Wraithborn hunts.
 
 ## Loot
-
-## Artifact
-
-## Triumphs
-
-## Season Pass
-
-## Vendors + Pinnacle weapon
