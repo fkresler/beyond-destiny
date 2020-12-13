@@ -23,12 +23,7 @@ const Text = styled.div`
 
 const Footer = () => (
   <Wrapper>
-    <Text>
-      <span>
-        Gatsby Tutorial Starter -{' '}
-        <a href="https://justinformentin.com">Justin Formentin</a>
-      </span>
-    </Text>
+    <Text>Destiny 2 & all related media © Bungie</Text>
   </Wrapper>
 );
 export default Footer;
