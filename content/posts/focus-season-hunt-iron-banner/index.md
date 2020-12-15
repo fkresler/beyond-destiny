@@ -29,14 +29,20 @@ Let's be real here: there are two types of rewards in that loot pool that provid
 
 **Playing Iron Banner matches does not feel rewarding, at all**
 
-- Unable to farm for specific things
-- Matches drop loot that does not belong to Iron Banner
+I have played this Iron Banner for around 20-25 matches to finish the quest alongside the bounties from Saladin. And even though I have not gotten the things I was looking for in my rolls and neither any good statted armor I have not been playing Iron Banner since finishing that last bounty. Now I enjoy playing PvP actually and spinning up build ideas for a bunch of games and I had my fair share of fun in those Iron Banner matches. But the rewards for those matches felt miserable.
+The thing that gets me to play the game after I had my fair share of fun is very often a mixture of intrinsic desire to get or do something and at the same time an external incentive in form of rewards. But getting blue rarity items that do not belong into the Iron Banner loot pool does not keep me engaged. And this also ties into my next point.
 
 **It feels demotivating to not be able to grind for individual rewards**
 
+At the very least there are 4 weapons and 5 different armor pieces in the Iron Banner loot pool. And among those weapons there are quite some rolls I would like to take for a spin. But because there are so few reliable ways (also see previous point) to farm for Iron Banner gear and no way to farm for something specific at all it is kind of unrealistic to expect to ever see your personal god roll drop for you. And when I know something is close to impossible to get then why should I spent my time trying so. It is very unlikely to get the specific weapon or armor piece to drop anyways, now what are the chances to get the specific roll to drop then but instead I get a slap in the face with a blue rarity item every now and then.
+
 **The freelance playlist for Iron Banner made matches more enjoyable**
 
+In previous Iron Banners facing 6-stacks mostly made for devastating match outcomes when the queue into the match took longer than the match itself. This Iron Banner I played a fair share of games in the freelance playlist and games have been so much more enjoyable. Every team was playing on an even playing field and had the same chances to win. At the same time it felt like good individual players could have more impact in a game because they would not face worse odds when playing against highly coordinated teams and face worse engages from the start.
+
 **The PvP weapon meta seemed to be very diverse and enjoyable**
+
+I cannot provide overall stats at this point but throughout my matches in the past Iron Banner I believe I have seen every weapon type in at least one match (except for rocket launchers). At the same time I tried various weapons by myself as well and every weapon type felt viable when play right to me. And in my personal opinion that allowed me to switch up my loadouts while not providing me with an inherent disadvantage.
 
 **Sunsetting removed previously stable (and too powerful) weapon picks from the PvP weapon meta**
 

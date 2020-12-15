@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Heya, if you managed to find your way here: this is the source for my personal blog about my Destiny thoughts and ideas. Feel free to explore and share!
+Heya, if you managed to find your way here: this is the source for my personal blog about my personal opinions, thoughts and ideas about Destiny. Feel free to explore and share!
 Currently this source is heavily based on the Gatsby-Starter that you can find here: [Thanks for the great template! It helped me set up this blog in no time!](https://www.gatsbyjs.com/starters/justinformentin/gatsby-v2-tutorial-starter)
 
 ## Live version
