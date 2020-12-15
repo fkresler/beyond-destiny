@@ -17,50 +17,41 @@ One thing that is making Iron Banner different from Control is called 'The Hunt'
 
 The other thing that separates Iron Banner from Control is that in Iron Banner your power level actually matters (at the time of writing this blog entry it takes into account your base power level without the additional power from the artifact) which in turn is influencing the weapon choices of players because weapons that cannot be upgraded to the highest power levels will net you an inherent disadvantage.
 
-## General
+## How do I feel currently about Iron Banner?
 
-**Personally I actually like that Iron Banner is a limited-time PvP event because that allows me to devote quite some time into one single aspect of a game I like.**
-Most weekly resets I would just do my 3-5 weekly Crucible games to get my weekly rewards more specifically the pinnacle drop from the director, the bright dust from the weekly bounties and the powerful drop from Shax which happens to be a reskinned armor piece for Crucible this season. Sometimes when I feel competitive and have not much to do I decide to jump into competitive and try to get to higher glory rankings but mostly that does not feel rewarding enough.
+**Additional monthly pinnacle rewards feel like a nice addition to the repetitive power grind, as long as you need them**
 
-Speaking about rewarding. Iron Banner feels a lot more rewarding than normal PvP playlists and at first glance you can see why:
+Like many players I would wish power leveling would not happen as often as it currently does as well because it gets repetitive every new season. But apparently power leveling is here to stay and part of the content every new season so we have to deal with it in the foreseeable future and Iron Banner provides me with a welcome addition to the weekly repetitions to level my character. So I was actually looking forward to finish all 4 of the pinnacle bounties to get up to 1257 gear level so I can start to take on 1280 challenges as soon as possible. The thing is this incentive worked for me this time but the following months I will probably already be at max gear level and those pinnacle rewards will not do much for me.
 
-- Iron Banner has a seasonal armor set (albeit mostly reskinned in previous seasons including this season)
-- Iron Banner has a lot of weapon drops, some with influence on the weapon meta (albeit only 2 new weapons this season)
-- Iron Banner has exclusive weapon perk combinations (specifically featuring Iron Gaze and Iron Grip)
-- Additional pinnacle sources
+**The specialized Iron Banner loot pool contains interesting and desirable rewards**
 
-**Because Iron Banner has its own loot pool and some interesting perk combinations and even more so some exclusive to the Iron Banner loot pool there are so many things to chase after!**
+Let's be real here: there are two types of rewards in that loot pool that provide me with an incentive to play Iron Banner: interesting weapons and perk combinations and a chance on highly statted armor rolls. Additionally there was introduced a new emblem and 2 new shaders. The thing with those rewards is that they are static and just need to be unlocked once and you are done with them. Personally I looked up the possible perk combinations for the new weapons first and noted my desired combinations and rolls too look for, some of which are only available on weapons specifically available in Iron Banner: Iron Grip and Iron Gaze. And I actually like that. Exclusive perks at the very least make me want to take those for a spin itno the Curcible or some PvE activities to give them a shot - along with possibly good perk combinations.
 
-- You get guaranteed pinnacle rewards that provide you with a +2 boost to something at your current power level
-- You get a good shot at high-statted armor pieces
-- You get a shot at interesting perk combinations on weapons
-- You get a shot at getting weapons featuring the perks exclusive to the Iron Banner loot pool and being able to experiment with them
+**Playing Iron Banner matches does not feel rewarding, at all**
 
-**I would like to see those strengths of the playlist even more reinforced!** Provide me with more reasons to stay in Iron Banner and play more games! It is a fine line because when people miss an Iron Banner week they feel left out if you put really good and cool stuff into the playlist and it is limited-time only.
+- Unable to farm for specific things
+- Matches drop loot that does not belong to Iron Banner
 
-**But there is more to being a rewarding game mode than just some cool and unique loot.** Let's take a step back and take a look at my past week in Iron Banner. I started of by looking up the new weapons and perks I could get on the new Iron Banner weapons and hyped up I noted some of which I would like to give run in the Crucible! Afterwards I went to Saladin and collected my seasonal Iron Banner quest to unlock the seasonal Iron Banner armor pieces and the bounties that provide me with additional pinnacle sources that are interesting to me because I am not at the maximum power cap yet. I pretty much played around 20-25 games in Iron Banner to finish everything previously mentioned and even though I still had my previously noted rolls to grind for and despite my fancy PvP build ideas I could have tried I never went back into Iron Banner. So here is when you might ask: Why?
+**It feels demotivating to not be able to grind for individual rewards**
 
-First of all: **at no point throughout this week I felt like I could achieve getting my desired rolls on Iron Banner weapons**. At all. Not with a houndred hours of play time just playing Iron Banner. You get the chance of a drop specific to the COMPLETE Iron Banner loot pool when finishing one of the 4 weekly bounties, when giving enough tokens to Saladin or after finishing a match. But you have no influence on what you get. And despite just introducing 2 new weapons this season the Iron Banner loot pool is massive with all previous weapons. Now good luck getting a specific weapon out of it and even more so getting a specific perk or perk combination.
+**The freelance playlist for Iron Banner made matches more enjoyable**
 
-Since there is this huge loot pool the best thing you can do is to get as many shots as you can at the reward you desire. Therefore the best thing you can do is to play as many matches as you can to get as many chances as you can. This ties directly into my second sour taste: **finishing Iron Banner matches can drop loot outside of Iron Banner**. Yup. Not only do I have to pray to RNG to get the specific weapon or armor in the Iron Banner loot pool. No, I also have to offer my firstborn as a sacrifice to even get a drop from the Iron Banner loot pool. This makes it extremely RNG reliant to grind for something you desire and puts your goals to something near impossible to reach. Which is something I do not like and probably many other people do not like as well.
+**The PvP weapon meta seemed to be very diverse and enjoyable**
 
-## Gameplay (focus on things specific to Iron Banner not PvP in general)
+**Sunsetting removed previously stable (and too powerful) weapon picks from the PvP weapon meta**
 
-- Freelance Playlist
 - Power enabled -> make sunsetting matter in PvP
-- Quest: not returning to Saladin in between steps
 
-- Often people leave unwinnable matches
+**The Iron Banner questline seemed to be unnecessary (even more so on multiple characters)**
+
+- Quest: not returning to Saladin in between steps
 - Quest: forced to play with specific weapon archetypes/playstyles - also contesting with team mates
 - Quest: step after step but partly fulfilling requirements from before?
 
-## Loot
+**Iron Banner feels the same-y to before**
 
-- Interesting weapon perk selections
-- Additional pinnacles (if you think of power leveling as content)
-
-- Previously available armor
 - Not much new stuff to look forward to -> IB feels very same-y to before
-- Unable to farm for specific things
-- Matches drop loot that does not belong to Iron Banner
 - No new triumphs
+- Few new rewards
+
+## How could Iron Banner be improved?
