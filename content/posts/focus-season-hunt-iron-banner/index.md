@@ -17,7 +17,7 @@ One thing that is making Iron Banner different from Control is called 'The Hunt'
 
 The other thing that separates Iron Banner from Control is that in Iron Banner your power level actually matters (at the time of writing this blog entry it takes into account your base power level without the additional power from the artifact) which in turn is influencing the weapon choices of players because weapons that cannot be upgraded to the highest power levels will net you an inherent disadvantage.
 
-## How do I feel currently about Iron Banner?
+## How do I feel about Iron Banner in Season of the Hunt?
 
 **Additional monthly pinnacle rewards feel like a nice addition to the repetitive power grind, as long as you need them**
 

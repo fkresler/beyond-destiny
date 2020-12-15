@@ -1,9 +1,9 @@
 ---
-path: '/beyond-progression'
+path: '/focus/season-hunt-progression'
 cover: './progression.jpeg'
 date: '2020-11-26'
-title: 'Beyond Light - Player engagement, incentives and progression'
-tags: ['beyond light', 'feedback', 'progression']
+title: 'Season of the Hunt - Challenges and Progression'
+tags: ['focus', 'beyond light', 'season of the hunt']
 published: true
 ---
 
