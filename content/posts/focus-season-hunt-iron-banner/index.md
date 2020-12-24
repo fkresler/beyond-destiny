@@ -19,7 +19,7 @@ The other thing that separates Iron Banner from Control is that in Iron Banner y
 
 ## How do I feel about Iron Banner in Season of the Hunt?
 
-**Additional monthly pinnacle rewards feel like a nice addition to the repetitive power grind, as long as you need them**
+**Additional monthly pinnacle rewards feel like a nice addition to the repetitive power grind (as long as you need them)**
 
 Like many players I would wish power leveling would not happen as often as it currently does as well because it gets repetitive every new season. But apparently power leveling is here to stay and part of the content every new season so we have to deal with it in the foreseeable future and Iron Banner provides me with a welcome addition to the weekly repetitions to level my character. So I was actually looking forward to finish all 4 of the pinnacle bounties to get up to 1257 gear level so I can start to take on 1280 challenges as soon as possible. The thing is this incentive worked for me this time but the following months I will probably already be at max gear level and those pinnacle rewards will not do much for me.
 
@@ -36,7 +36,7 @@ The thing that gets me to play the game after I had my fair share of fun is very
 
 At the very least there are 4 weapons and 5 different armor pieces in the Iron Banner loot pool. And among those weapons there are quite some rolls I would like to take for a spin. But because there are so few reliable ways (also see previous point) to farm for Iron Banner gear and no way to farm for something specific at all it is kind of unrealistic to expect to ever see your personal god roll drop for you. And when I know something is close to impossible to get then why should I spent my time trying so. It is very unlikely to get the specific weapon or armor piece to drop anyways, now what are the chances to get the specific roll to drop then but instead I get a slap in the face with a blue rarity item every now and then.
 
-**The freelance playlist for Iron Banner made matches more enjoyable**
+**The freelance playlist for Iron Banner improved match quality for solo players**
 
 In previous Iron Banners facing 6-stacks mostly made for devastating match outcomes when the queue into the match took longer than the match itself. This Iron Banner I played a fair share of games in the freelance playlist and games have been so much more enjoyable. Every team was playing on an even playing field and had the same chances to win. At the same time it felt like good individual players could have more impact in a game because they would not face worse odds when playing against highly coordinated teams and face worse engages from the start.
 
@@ -46,7 +46,7 @@ I cannot provide overall stats at this point but throughout my matches in the pa
 
 **Sunsetting removed previously stable (and too powerful) weapon picks from the PvP weapon meta**
 
-- Power enabled -> make sunsetting matter in PvP
+Sunsetting entirely deserves its own post because it is a very wide subject with many upsides and downsides. The thing is sunsetting takes effect in Iron Banner because in Iron Banner power level actually matters to an extend. Previous meta stables like Recluse and Mountaintop are capped at 1060 power level while players can get up to 1260 in Iron Banner so using them puts you at an immediate disadvantage. And even if I do not see them that often anymore sunsetting reinforces players to shy away from the weapons or at the very least reduces their impact. And albeit there are many disadvantages like previously mentioned there was another interesting thing to consider: sunsetting made me think about which new weapons or loadouts I can choose to bring into Iron Banner instead of previously stable loadouts. It was definitely fun playing around with Deafening Whisper and Glacier Grenade but I can understand the disappointment of players to be forced away from their favorite weapons.
 
 **The Iron Banner questline seemed to be unnecessary (even more so on multiple characters)**
 
