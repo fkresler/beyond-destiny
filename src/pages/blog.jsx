@@ -6,7 +6,7 @@ import { Header, BlogList } from 'components';
 import { Layout } from 'layouts';
 
 const Blog = ({ data }) => {
-  const { edges } = data.allMarkdownRemark;
+  const { edges } = data.allMdx;
   return (
     <Layout>
       <Helmet title={'Beyond Destiny'} />
@@ -30,7 +30,7 @@ export default Blog;
 
 Blog.propTypes = {
   data: PropTypes.shape({
-    allMarkdownRemark: PropTypes.shape({
+    allMdx: PropTypes.shape({
       edges: PropTypes.arrayOf(
         PropTypes.shape({
           node: PropTypes.shape({
@@ -51,7 +51,7 @@ Blog.propTypes = {
 
 export const query = graphql`
   query {
-    allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
+    allMdx(sort: { order: DESC, fields: [frontmatter___date] }) {
       edges {
         node {
           id

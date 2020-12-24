@@ -7,7 +7,7 @@ tags: ['general']
 published: true
 ---
 
-Hi there!
+## Hi there!
 
 Welcome to my blog about my thoughts on Destiny 2! I hope you enjoy reading some of the posts and if you like some of it or have some additional thoughts or ideas on your own feel free to share it with me on Twitter or e-mail.
 

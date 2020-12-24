@@ -21,7 +21,7 @@ const PostWrapper = styled.div`
 `;
 
 const Index = ({ data }) => {
-  const { edges } = data.allMarkdownRemark;
+  const { edges } = data.allMdx;
   return (
     <Layout>
       <Helmet title={'Beyond Destiny'} />
@@ -50,7 +50,7 @@ export default Index;
 
 Index.propTypes = {
   data: PropTypes.shape({
-    allMarkdownRemark: PropTypes.shape({
+    allMdx: PropTypes.shape({
       edges: PropTypes.arrayOf(
         PropTypes.shape({
           node: PropTypes.shape({
@@ -71,7 +71,7 @@ Index.propTypes = {
 
 export const query = graphql`
   query {
-    allMarkdownRemark(
+    allMdx(
       limit: 6
       sort: { order: DESC, fields: [frontmatter___date] }
     ) {

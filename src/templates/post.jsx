@@ -21,7 +21,7 @@ const PostSuggestion = styled.div`
 
 const Post = ({ data, pageContext }) => {
   const { next, prev } = pageContext;
-  const { html, frontmatter, excerpt } = data.markdownRemark;
+  const { body, frontmatter, excerpt } = data.mdx;
   const { date, title, tags, path, description } = frontmatter;
   const image = frontmatter.cover.childImageSharp.fluid;
 
@@ -36,7 +36,7 @@ const Post = ({ data, pageContext }) => {
       />
       <Header title={title} date={date} cover={image} />
       <Container>
-        <Content input={html} />
+        <Content input={body} />
         <TagsBlock list={tags || []} />
       </Container>
       <SuggestionBar>
@@ -73,8 +73,8 @@ Post.propTypes = {
 
 export const query = graphql`
   query($pathSlug: String!) {
-    markdownRemark(frontmatter: { path: { eq: $pathSlug } }) {
-      html
+    mdx(frontmatter: { path: { eq: $pathSlug } }) {
+      body
       frontmatter {
         date(formatString: "DD.MM.YYYY")
         title

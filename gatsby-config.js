@@ -14,11 +14,19 @@ module.exports = {
         path: `${__dirname}/content/posts`,
       },
     },
+    {
+      resolve: "gatsby-plugin-page-creator",
+      options: {
+        name: 'posts',
+        path: `${__dirname}/content/posts`,
+      },
+    },
     'gatsby-transformer-sharp',
     {
-      resolve: 'gatsby-transformer-remark',
+      resolve: `gatsby-plugin-mdx`,
       options: {
-        plugins: [
+        extensions: [`.mdx`, `.md`],
+        gatsbyRemarkPlugins: [
           {
             resolve: 'gatsby-remark-images',
             options: {
@@ -28,12 +36,10 @@ module.exports = {
             },
           },
           'gatsby-remark-prismjs',
-        ],
+        ]
       },
     },
-    {
-      resolve: 'gatsby-plugin-emotion',
-    },
+    'gatsby-plugin-emotion',
     {
       resolve: 'gatsby-plugin-typography',
       options: {
