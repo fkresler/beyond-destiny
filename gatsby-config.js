@@ -15,7 +15,7 @@ module.exports = {
       },
     },
     {
-      resolve: "gatsby-plugin-page-creator",
+      resolve: 'gatsby-plugin-page-creator',
       options: {
         name: 'posts',
         path: `${__dirname}/content/posts`,
@@ -23,9 +23,9 @@ module.exports = {
     },
     'gatsby-transformer-sharp',
     {
-      resolve: `gatsby-plugin-mdx`,
+      resolve: 'gatsby-plugin-mdx',
       options: {
-        extensions: [`.mdx`, `.md`],
+        extensions: ['.mdx', '.md'],
         gatsbyRemarkPlugins: [
           {
             resolve: 'gatsby-remark-images',
@@ -36,7 +36,7 @@ module.exports = {
             },
           },
           'gatsby-remark-prismjs',
-        ]
+        ],
       },
     },
     'gatsby-plugin-emotion',

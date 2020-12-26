@@ -29,7 +29,7 @@ const Index = ({ data }) => {
       <PostWrapper>
         {edges.map(({ node }) => {
           const { id, excerpt, frontmatter } = node;
-          const { cover, path, title, date } = frontmatter;
+          const { cover, path, title, date, published } = frontmatter;
           return (
             <PostList
               key={id}
@@ -38,6 +38,7 @@ const Index = ({ data }) => {
               title={title}
               date={date}
               excerpt={excerpt}
+              published={published}
             />
           );
         })}
@@ -61,6 +62,7 @@ Index.propTypes = {
               title: PropTypes.string.isRequired,
               date: PropTypes.string.isRequired,
               tags: PropTypes.array,
+              published: PropTypes.bool.isRequired,
             }),
           }),
         }).isRequired
@@ -71,10 +73,7 @@ Index.propTypes = {
 
 export const query = graphql`
   query {
-    allMdx(
-      limit: 6
-      sort: { order: DESC, fields: [frontmatter___date] }
-    ) {
+    allMdx(limit: 6, sort: { order: DESC, fields: [frontmatter___date] }) {
       edges {
         node {
           id
@@ -84,6 +83,7 @@ export const query = graphql`
             path
             tags
             date(formatString: "DD.MM.YYYY")
+            published
             cover {
               childImageSharp {
                 fluid(

@@ -9,16 +9,16 @@ const Wrapper = styled.article`
   margin-bottom: 2rem;
   position: relative;
   z-index: 100;
-  border-radius: ${props => props.theme.borderRadius.default};
-  box-shadow: ${props => props.theme.shadow.feature.small.default};
-  transition: ${props => props.theme.transitions.boom.transition};
+  border-radius: ${(props) => props.theme.borderRadius.default};
+  box-shadow: ${(props) => props.theme.shadow.feature.small.default};
+  transition: ${(props) => props.theme.transitions.boom.transition};
   height: 17rem;
   flex-basis: calc(99.9% * 1 / 3 - 2.5rem);
   max-width: calc(99.9% * 1 / 3 - 2.5rem);
   width: calc(99.9% * 1 / 3 - 2.5rem);
 
   &:hover {
-    box-shadow: ${props => props.theme.shadow.feature.small.hover};
+    box-shadow: ${(props) => props.theme.shadow.feature.small.hover};
     transform: scale(1.04);
   }
 
@@ -48,7 +48,7 @@ const StyledLink = styled(Link)`
   justify-content: space-between;
   padding: 1rem;
   z-index: 3;
-  border-radius: ${props => props.theme.borderRadius.default};
+  border-radius: ${(props) => props.theme.borderRadius.default};
   &:after {
     content: '';
     position: absolute;
@@ -81,9 +81,9 @@ const Image = styled.div`
   bottom: 0;
   z-index: 1;
   object-fit: cover;
-  border-radius: ${props => props.theme.borderRadius.default};
+  border-radius: ${(props) => props.theme.borderRadius.default};
   img {
-    border-radius: ${props => props.theme.borderRadius.default};
+    border-radius: ${(props) => props.theme.borderRadius.default};
   }
   > div {
     position: static !important;
@@ -94,7 +94,7 @@ const Image = styled.div`
 `;
 
 const Info = styled.div`
-  color: ${props => props.theme.colors.white.light};
+  color: ${(props) => props.theme.colors.white.light};
   margin: 0 1rem 1.25rem 1.25rem;
   position: absolute;
   bottom: 0;
@@ -105,19 +105,24 @@ const Title = styled.h2`
   margin-bottom: 0.6rem;
 `;
 
-const PostList = ({ cover, path, date, title, excerpt }) => (
-  <Wrapper>
-    <Image>
-      <Img fluid={cover} />
-    </Image>
-    <StyledLink to={path}>
-      <Info>
-        <span>{date}</span>
-        <Title>{title}</Title>
-      </Info>
-    </StyledLink>
-  </Wrapper>
-);
+const PostList = ({ cover, path, date, title, published }) => {
+  if (published) {
+    return (
+      <Wrapper>
+        <Image>
+          <Img fluid={cover} />
+        </Image>
+        <StyledLink to={path}>
+          <Info>
+            <span>{date}</span>
+            <Title>{title}</Title>
+          </Info>
+        </StyledLink>
+      </Wrapper>
+    );
+  }
+  return null;
+};
 
 export default PostList;
 
@@ -127,4 +132,5 @@ PostList.propTypes = {
   excerpt: PropTypes.string,
   date: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
+  published: PropTypes.bool.isRequired,
 };

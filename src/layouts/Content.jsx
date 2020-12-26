@@ -1,5 +1,5 @@
 import React from 'react';
-import { MDXRenderer } from "gatsby-plugin-mdx"
+import { MDXRenderer } from 'gatsby-plugin-mdx';
 import styled from '@emotion/styled';
 import PropTypes from 'prop-types';
 import prism from '../styles/prism';
@@ -20,13 +20,13 @@ const Wrapper = styled.div`
   }
   a:not(.gatsby-resp-image-link):not(.anchor) {
     color: black;
-    box-shadow: inset 0 -2px 0 ${props => props.theme.colors.primary.base};
-    border-bottom: 1px solid ${props => props.theme.colors.primary.base};
-    transition: ${props => props.theme.transitions.default.transition};
+    box-shadow: inset 0 -2px 0 ${(props) => props.theme.colors.primary.base};
+    border-bottom: 1px solid ${(props) => props.theme.colors.primary.base};
+    transition: ${(props) => props.theme.transitions.default.transition};
     text-decoration: none;
     &:hover,
     &:focus {
-      background: ${props => props.theme.colors.primary.base};
+      background: ${(props) => props.theme.colors.primary.base};
       color: black;
     }
   }
@@ -60,9 +60,7 @@ const Wrapper = styled.div`
   }
 `;
 
-const Content = ({ input }) => (
-  <MDXRenderer>{input}</MDXRenderer>
-);
+const Content = ({ input }) => <MDXRenderer>{input}</MDXRenderer>;
 
 export default Content;
 

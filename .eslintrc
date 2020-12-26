@@ -8,22 +8,14 @@
   "rules": {
     "strict": 0,
     "no-console": "warn",
-    "quotes": [
-      "warn",
-      "single"
-    ],
-    "no-unused-vars": [
-      1
-    ],
+    "quotes": ["warn", "single"],
+    "no-unused-vars": [1],
     "react/jsx-filename-extension": [
       1,
       {
         "extensions": [".js", ".jsx"]
       }
-    ],
-    "prettier/prettier": ["warn", "error", {
-     "endOfLine":"auto"
-   }]
+    ]
   },
   "extends": [
     "eslint:recommended",

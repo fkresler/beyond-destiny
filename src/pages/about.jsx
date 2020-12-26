@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import { Header } from 'components';
 import { Layout, Container } from 'layouts';
 
-const About = center => (
+const About = (center) => (
   <Layout>
     <Helmet title={'About Page'} />
     <Header title="About Page">Beyond Destiny</Header>

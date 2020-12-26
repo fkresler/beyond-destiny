@@ -12,9 +12,7 @@ exports.createPages = ({ graphql, actions }) => {
       graphql(
         `
           query {
-            allMdx(
-              sort: { order: ASC, fields: [frontmatter___date] }
-            ) {
+            allMdx(sort: { order: ASC, fields: [frontmatter___date] }) {
               edges {
                 node {
                   frontmatter {
@@ -27,7 +25,7 @@ exports.createPages = ({ graphql, actions }) => {
             }
           }
         `
-      ).then(result => {
+      ).then((result) => {
         if (result.errors) {
           return reject(result.errors);
         }
@@ -38,7 +36,7 @@ exports.createPages = ({ graphql, actions }) => {
         // create tags page
         posts.forEach(({ node }) => {
           if (node.frontmatter.tags) {
-            node.frontmatter.tags.forEach(tag => {
+            node.frontmatter.tags.forEach((tag) => {
               if (!postsByTag[tag]) {
                 postsByTag[tag] = [];
               }
@@ -59,7 +57,7 @@ exports.createPages = ({ graphql, actions }) => {
         });
 
         //create tags
-        tags.forEach(tagName => {
+        tags.forEach((tagName) => {
           const posts = postsByTag[tagName];
 
           createPage({
