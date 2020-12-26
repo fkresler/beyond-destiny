@@ -6,10 +6,9 @@
     "es6": true
   },
   "rules": {
-    "strict": 0,
+    "strict": 1,
     "no-console": "warn",
     "quotes": ["warn", "single"],
-    "no-unused-vars": [1],
     "react/jsx-filename-extension": [
       1,
       {
@@ -18,9 +17,10 @@
     ]
   },
   "extends": [
+    "prettier/prettier",
     "eslint:recommended",
     "plugin:react/recommended",
     "plugin:jsx-a11y/recommended"
   ],
-  "plugins": ["prettier", "jsx-a11y"]
+  "plugins": ["prettier", "react", "jsx-a11y"]
 }

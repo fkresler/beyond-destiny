@@ -25,7 +25,9 @@ const Index = ({ data }) => {
   return (
     <Layout>
       <Helmet title={'Beyond Destiny'} />
-      <Header title="Beyond Destiny">My thoughts and ideas</Header>
+      <Header title="Beyond Destiny">
+        My personal thoughts and ideas about the world of Destiny 2
+      </Header>
       <PostWrapper>
         {edges.map(({ node }) => {
           const { id, excerpt, frontmatter } = node;

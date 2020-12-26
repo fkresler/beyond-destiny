@@ -60,7 +60,11 @@ const Wrapper = styled.div`
   }
 `;
 
-const Content = ({ input }) => <MDXRenderer>{input}</MDXRenderer>;
+const Content = ({ input }) => (
+  <Wrapper>
+    <MDXRenderer>{input}</MDXRenderer>
+  </Wrapper>
+);
 
 export default Content;
 
