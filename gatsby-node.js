@@ -12,7 +12,10 @@ exports.createPages = ({ graphql, actions }) => {
       graphql(
         `
           query {
-            allMdx(sort: { order: ASC, fields: [frontmatter___date] }) {
+            allMdx(
+              filter: { frontmatter: { published: { eq: true } } }
+              sort: { order: ASC, fields: [frontmatter___date] }
+            ) {
               edges {
                 node {
                   frontmatter {
