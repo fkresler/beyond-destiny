@@ -3,14 +3,13 @@ import styled from '@emotion/styled';
 import PropTypes from 'prop-types';
 
 const Wrapper = styled.div`
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: flex-start;
+  display: block;
+  margin: 1rem auto;
   padding: 0.5rem;
   background-color: #fff;
   color: #000;
   border: 1px solid #000;
+  border-radius: 5px;
 
   ${(props) =>
     props.variant === 'positive' &&
@@ -29,13 +28,20 @@ const Wrapper = styled.div`
   `}
 `;
 
+const Headline = styled.div`
+  display: block;
+  font-weight: bold;
+`;
+
+const Content = styled.div`
+  display: block;
+  margin-top: 1rem;
+`;
+
 const Feedback = ({ title, children, variant }) => (
   <Wrapper variant={variant}>
-    <div>Icon</div>
-    <div>
-      {title}
-      {children}
-    </div>
+    {title && <Headline>{title}</Headline>}
+    {children && <Content>{children}</Content>}
   </Wrapper>
 );
 
